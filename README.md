@@ -23,3 +23,7 @@ The following image is to show the structure of the back end, it is same from [a
     c.IncludeXmlComments(xmlPath, true); // with controller annotation
 ```
 And, <GenerateDocumentationFile>true</GenerateDocumentationFile> is to get xml file, write it under .csproj
+
+
+## User DbContext
+1. Create `AppUser`, `AppRole` and `AppUserRole` for authantication.
